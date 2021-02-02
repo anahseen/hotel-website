@@ -85,6 +85,7 @@ p{
 
 .l-heading{
     font-size: 40px;
+    line-height: 1.2;
 }
 
 /* Padding */
@@ -103,7 +104,7 @@ p{
     color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
 
@@ -127,13 +128,12 @@ p{
 #navbar ul li a:hover{
     background: #444;
     color: #ff7b00 ;
-    transition-duration:0.2;
+    transition-duration:0.2s;
 }
 
     #navbar ul li a.current{
     background: #444;
     color: #ff7b00;
-    
 }
 
 /* Showcase */
@@ -198,7 +198,7 @@ overflow: hidden;
 }
 
 /* Features */
-#features .box{
+.box{
     float: left;
      width: 33.3%;
    padding: 50px;
@@ -236,7 +236,7 @@ overflow: hidden;
 
 /* Testimonials */
 #testimonials{
-    height: 600px;
+    height: 100%;
     background: url('../img/test-bg.jpg') no-repeat
     center center/cover;
     padding-top: 70px;
@@ -255,7 +255,7 @@ overflow: hidden;
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 15px;
-    opacity: 80%;
+    opacity: 88%;
     color: #fff;
 }
 
